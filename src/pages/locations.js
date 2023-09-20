@@ -15,6 +15,9 @@ import Useeffect from '../components/Useeffect';
 import Useref from '../components/Uesref';
 import Reducerhook from '../components/Reducerhook';
 import ErrorBoundary from '../components/ErrorBoundary';
+import HocComp from '../components/HocComp';
+
+const WrappedComp = HocComp(Willupdate)
 
 const Locations = () => {
     const campsProps = [
@@ -103,7 +106,7 @@ const Locations = () => {
                     </ErrorBoundary>
                     <hr></hr>
                     <h1>without error boundary</h1>
-                    <Willupdate />
+                   <WrappedComp />
                     <hr></hr>
                     <h2 class="text-center mt-2 mb-2">UseEffect</h2>
                     <Useeffect />
