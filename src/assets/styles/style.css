@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.form{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 5px 7px  1px rgba(0, 0, 0, 0.774);
+    padding: 20px;
+}
+.logo{
+    margin-left: 10px;
+        width: 50PX;
+        height: auto;
+}
+.img1{
+    height: 380px !important;
+    filter:opacity(0.9)!important;
+}
+.img1:hover{
+    filter:blur(3px) !important;
+    
+}
+.navbar{
+    background-color: rgba(17, 17, 17, 0.808)!important;
+    
+}
+.subscribe{
+    border: none;
+    background-color: rgb(203, 255, 238);
+    width: 120px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.subscribe:hover{
+    border-radius: 10px;
+    background-color: rgba(255, 32, 3, 0.836);
+    width: 140px;
+}
+.carousel-caption h4{
+    font-size: 60px !important;
+    text-align: center;
+}
+.side1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 2px 5px 7px  1px rgba(0, 0, 0, 0.801);
+    width: 80%;
+}
+.para{
+    padding: 10px;
+
+    color: rgb(248, 252, 255);
+}
+.para1{
+    background-color: rgba(17, 17, 17, 0.808) ;
+}
+.bgcolor{
+    background-color: rgba(17, 17, 17, 0.808) ;
+}
+.bgcolorF{
+    padding: 20px;
+    background-color: rgba(32, 32, 32, 0.808) ;
+    color: rgb(248, 252, 255);
+    text-align: center;
+}
+.bgcolorF h2{
+    color: rgb(234, 240, 245);
+}
+.bgcolor h2{
+    color: rgb(248, 252, 255);
+}
+.list1{
+    list-style: none;
+    cursor: pointer;
+}
+.campImg{
+    width: 100%;
+}
